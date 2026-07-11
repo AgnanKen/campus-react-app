@@ -1,6 +1,6 @@
 import React from 'react'
 
-const SearchReg = () => {
+const DeleteReg = () => {
   return (
     <div>
         <div className="container">
@@ -8,8 +8,7 @@ const SearchReg = () => {
           <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
             <div className="row g-3">
 
-
-                <center><h2>Search Student Details</h2></center>  
+                <center><h2>Delete Student Details</h2></center>  
               <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                 <label htmlFor="" className="form-label">
                   Student Registration Number
@@ -18,7 +17,7 @@ const SearchReg = () => {
               </div>
 
               <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                <button className="btn btn-warning">Submit</button>
+                <button className="btn btn-danger">Delete Student</button>
               </div>
 
             </div>
@@ -29,4 +28,4 @@ const SearchReg = () => {
   )
 }
 
-export default SearchReg
+export default DeleteReg
