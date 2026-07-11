@@ -7,6 +7,7 @@ import AddReg from './components/AddReg'
 import SearchReg from './components/SearchReg'
 import DeleteReg from './components/DeleteReg'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import ViewReg from './components/ViewReg'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +19,7 @@ function App() {
         <Route path="/" element={<AddReg />} />
         <Route path="/search" element={<SearchReg />} />
         <Route path="/delete" element={<DeleteReg />} />
+        <Route path="/view" element={<ViewReg />} />
       </Routes>
       </BrowserRouter>
     </>

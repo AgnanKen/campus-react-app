@@ -37,8 +37,8 @@ const NavBar = () => {
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">
-                  Disabled
+                <a class="nav-link" href="/view">
+                  View Student Registration
                 </a>
               </li>
             </ul>
